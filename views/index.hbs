@@ -1,0 +1,112 @@
+<style>
+	body {
+		background-color: #F1F2F3;
+	}
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #ffffff;
+		padding: 0 20px;
+	}
+
+	header img {
+		width: 180px;
+		height: 152px;
+	}
+
+	.table-content {
+		padding: 2vh 10vw;
+		background-color: #ffffff;
+		min-height: 65vh;
+	}
+
+	table {
+		width: 100%;
+	}
+
+	table th {
+		text-align: left;
+	}
+	.header-table {
+		display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+	}
+
+	button {
+		color: #ffffff;
+    background: #EB1D26;
+    border: 1px solid #EB1D26;
+    padding: 0.5rem 1rem;
+    font-size: .6rem;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    border-radius: 3px;
+		cursor: pointer;
+	}
+</style>
+<header>
+		<img height="200" width="200" src="https://thecollider.tech/app/uploads/sites/11/2021/06/Geeks-Hub-academy-1.png">
+		<p>
+			<b>KEVIN DUVAN RIVERA RAMIREZ - 23324123F</b>
+		</p>
+</header>
+
+<section class="table-content">
+	<div class="header-table">
+		<div>
+			<h4>PAGOS PENDIENTES (11)</h4>	
+		</div>
+		<div>
+			<h4>TOTAL PENDIENTE: 3570€</h4>	
+		</div>
+	</div>
+
+	<section>
+		<table>
+			<tr>
+				<th>FECHA DE PAGO</th>
+				<th>CANTIDAD A PAGAR</th>
+				<th>ESTADO DEL PAGO</th>
+				<th>REALIZAR PAGO</th>
+			</tr>
+			{{!-- --------------------- --}}
+			<tr>
+				<td>01/05/2022</td>
+				<td>1785 €</td>
+				<td>Impagado</td>
+				<td>
+					<button onclick="location.href='https://buy.stripe.com/aEU7uL5P3bew436eUU'" type="button">
+						PAGAR CUOTA
+					</button>
+				</td>
+			</tr>
+			{{!-- --------------------- --}}
+			<tr>
+				<td>01/05/2022</td>
+				<td>178.50 €</td>
+				<td>Impagado</td>
+				<td>
+					<button onclick="location.href='https://buy.stripe.com/eVaeXdgtHaas57a5kl'" type="button">
+						PAGAR CUOTA
+					</button>
+				</td>
+			</tr>
+			
+			{{!-- --------------------- --}}
+			<tr>
+				<td>01/06/2022</td>
+				<td>178.50 €</td>
+				<td>Impagado</td>
+				<td>
+					<button onclick="location.href='https://buy.stripe.com/cN2aGXfpD6Yg9nq28a'" type="button">
+						PAGAR CUOTA
+					</button>
+				</td>
+			</tr>
+			
+		</table>
+	</section>
+</section>
+
+<section>
+
+</section>
